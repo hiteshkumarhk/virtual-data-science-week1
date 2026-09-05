@@ -1,0 +1,2 @@
+Best Model,Logistic Regression Accuracy,Logistic Regression F1,Logistic Regression ROC-AUC,Random Forest Accuracy,Random Forest F1,Random Forest ROC-AUC,Logistic 5-Fold CV Accuracy,Random Forest 5-Fold CV Accuracy
+Random Forest,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
