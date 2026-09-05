@@ -1,0 +1,39 @@
+WEEK 3 - CUSTOMER SEGMENTATION USING K-MEANS
+=================================================================
+
+Dataset Shape: (200, 7)
+Optimal K Used: 5
+Best K According to Silhouette Score: 5
+Highest Silhouette Score: 0.5547
+
+SILHOUETTE SCORES
+----------------------------------------
+K = 2: 0.3213
+K = 3: 0.4666
+K = 4: 0.4939
+K = 5: 0.5547
+K = 6: 0.5399
+K = 7: 0.5281
+K = 8: 0.4552
+K = 9: 0.4571
+K = 10: 0.4432
+
+
+CLUSTER SUMMARY
+----------------------------------------
+         Number_of_Customers  Average_Age  Average_Income  Average_Spending_Score
+Cluster                                                                          
+0                         81        42.72           55.30                   49.52
+1                         39        32.69           86.54                   82.13
+2                         22        25.27           25.73                   79.36
+3                         35        41.11           88.20                   17.11
+4                         23        45.22           26.30                   20.91
+
+CUSTOMER SEGMENT SUMMARY
+----------------------------------------
+                             Customers  Average_Age  Average_Income  Average_Spending_Score
+Customer Segment                                                                           
+High Income - High Spending        120        39.46           65.45                   60.12
+High Income - Low Spending          35        41.11           88.20                   17.11
+Low Income - High Spending          22        25.27           25.73                   79.36
+Low Income - Low Spending           23        45.22           26.30                   20.91
